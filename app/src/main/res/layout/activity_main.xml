@@ -13,13 +13,15 @@
         android:id="@+id/edtName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Họ tên" />
+        android:hint="Họ tên"
+        android:enabled="false" />
 
     <EditText
         android:id="@+id/edtMSSV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="MSSV" />
+        android:hint="MSSV"
+        android:enabled="false" />
 
     <LinearLayout
         android:orientation="horizontal"
